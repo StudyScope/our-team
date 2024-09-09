@@ -1,5 +1,39 @@
 .content {
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+.person {
+	display: grid;
+	width: 50%;
+	margin: auto;
+	grid-template-columns: 1fr 4fr;
+	padding: 5vh;
+	border-bottom: 1px solid #bababa;
+}
+
+.person-image-container {
+	height: 100%;
 	display: flex;
-  	justify-content: center;
-  	margin-top: 5vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.person-image {
+	border-radius: 50%;
+	clip-path: circle();
+}	
+
+.person-info {
+	display: block;
+	padding-left: 2vw;
+}
+
+.person-name {
+	font-family: inter-semibold;
+}
+
+.person-bio {
+/*	font-family: Inter;*/
 }
