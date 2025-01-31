@@ -48,3 +48,20 @@
 	margin-top: 1vw;
 	text-align: justify;
 }
+
+@media screen and (max-width:900px) {
+	.content {
+		margin: 2vw;
+	}
+	.people-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr;
+	}
+	.p-image {
+		height: 30vw;
+	}
+	.title {
+		margin-bottom: 5vh;
+	}
+}
