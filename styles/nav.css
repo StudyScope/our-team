@@ -23,6 +23,7 @@ body {
 	font-family: inter;
 	margin: 0;
 	padding: 0;
+	position: absolute;
 }
 
 a {
@@ -48,6 +49,13 @@ a {
 #logo {
 	height: var(--logo-height);
 	vertical-align: middle;
+}
+
+@media screen and (max-width:950px) {
+	#logo {
+	  height: calc(var(--logo-height) * 1.6);
+	  margin-left: 20px;
+	}
 }
 
 .logo-text {
@@ -138,3 +146,30 @@ footer {
 	color: white;
 }
 
+
+#hamburger-container {
+	display: none;
+}
+
+#mobile-nav-buttons {
+	display: none;
+
+}
+
+.mobile-nav-button {
+	color: #222;
+	font-size: 300%;
+	text-align: center;
+	margin: 3vh;
+
+}
+
+.mobile-nav-button-container {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav-space {
+	height: 100vh;
+}
