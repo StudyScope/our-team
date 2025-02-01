@@ -53,8 +53,8 @@ a {
 
 @media screen and (max-width:950px) {
 	#logo {
-	  height: calc(var(--logo-height) * 1.6);
-	  margin-left: 20px;
+	  height: calc(var(--logo-height) * 0.8);
+/*	  margin-left: 20px;*/
 	}
 }
 
